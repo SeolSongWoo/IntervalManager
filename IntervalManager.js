@@ -12,13 +12,18 @@ export default class IntervalManager {
             return;
         }
 
-        // 인터벌 생성 및 시작
         this.intervals[time] = {
             interval: setInterval(() => {
                 Object.values(this.intervals[time].tasks).forEach(task => task());
             }, time),
             tasks: {}
         };
+
+        return {addFunction : (func) => {
+            this.intervals[time].tasks[name] = func;
+            return this;
+        }}
+
     }
 
     addFunctionToInterval(name, time, func) {
