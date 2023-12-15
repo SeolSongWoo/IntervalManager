@@ -63,6 +63,9 @@ intervalManager.createInterval(2000, "myInterval");
 intervalManager.addFunctionToInterval("task1", 2000, () => {
     console.log("Function 1 executed every 2 seconds");
 });
+
+// If you want Method channing
+intervalManager.createInterval(5000, "HelloWorld").addFunction(() => console.log("hello world1")).addFunction(() => console.log("hello world2"));
 ```
 
 ## Conclusion
