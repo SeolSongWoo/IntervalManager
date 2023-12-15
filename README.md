@@ -1,4 +1,4 @@
-#IntervalManager Class Documentation
+IntervalManager Class Documentation
 Overview
 IntervalManager는 JavaScript에서 여러 인터벌을 관리하기 위한 클래스입니다. 이 클래스를 사용하면 여러 시간 간격으로 실행되는 다양한 함수를 효율적으로 관리할 수 있습니다. 클래스는 인터벌 생성, 함수 추가, 인터벌 삭제 등의 기능을 제공합니다.
 
