@@ -60,7 +60,7 @@ const intervalManager = new IntervalManager();
 intervalManager.createInterval(2000, "myInterval");
 
 // Add function to the interval
-intervalManager.addFunctionToInterval("task1", 2000, () => {
+intervalManager.addFunctionToInterval("myInterval", () => {
     console.log("Function 1 executed every 2 seconds");
 });
 
