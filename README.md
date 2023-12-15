@@ -42,7 +42,7 @@ This method will log an error if no interval is found for the specified time.
 
 ### Deleting an Interval
 
-(Documentation for deleting an interval, if such functionality is included in the class.)
+This section will be updated in a future version of the documentation.
 
 ## Error Handling
 
